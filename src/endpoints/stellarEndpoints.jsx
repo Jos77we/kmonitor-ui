@@ -1,6 +1,6 @@
 // frontend/src/endpoints/stellarEndpoints.js
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://kmonitor.onrender.com/api';
 
 // Helper function to make API calls
 const apiRequest = async (method, url, data = null) => {

@@ -41,15 +41,15 @@ export function TestsPage() {
   });
   const [envVariables, setEnvVariables] = useState({
     testnet: {
-      BASE_URL: 'http://localhost:5000/testnet',
+      BASE_URL: 'https://kmonitor.onrender.com/testnet',
       API_KEY: 'test_1234567890'
     },
     public: {
-      BASE_URL: 'http://localhost:5000/public',
+      BASE_URL: 'https://kmonitor.onrender.com/public',
       API_KEY: 'prod_1234567890'
     },
     kipaji: {
-      BASE_URL: 'http://localhost:5000/kipaji',
+      BASE_URL: 'https://kmonitor.onrender.com/kipaji',
       API_KEY: 'kipaji_1234567890'
     }
   });
